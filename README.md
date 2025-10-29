@@ -1,23 +1,24 @@
 # OldPhonePad – C# Coding Challenge
 ## Overview
-Simulates an old phone keypad converting numeric input into letters, with alphabetical letters, a backspace
-key, and a send button.
+Please design and document a class of method that will turn any input to OldPhonePad
+into the correct output. With alphabetical letters, a backspace key(*), and a send button(#).
 
-## Samples
+
+## Examples
 | Input                | Output  |
 |----------------------|---------|
-| `33#`                | E       |
+| `222 2 22#`          | CAB     |
 | `4433555 555666#`    | HELLO   |
 | `8 88777444666*664#` | TURING  |
 
 
 
-## How to Run
-```bash
+## Run
+
 dotnet run --project OldPhonePad
 
-## How to Test
-```bash
-dotnet test
 
+## Test
+
+dotnet test
 
